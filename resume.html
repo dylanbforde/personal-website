@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume | Dylan Forde</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&family=Playfair+Display:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body class="paper-bg">
+
+    <nav class="nav" id="navbar">
+        <div class="container nav-inner">
+            <a href="index.html" class="nav-logo">DF.</a>
+            <button class="nav-toggle" id="navToggle">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="resume.html" class="nav-link active">Resume</a></li>
+                <li><a href="projects.html" class="nav-link">Projects</a></li>
+                <li><a href="writing.html" class="nav-link">Writing</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="https://github.com/dylanbforde" target="_blank" class="btn btn-primary"
+                        style="padding: 0.25rem 1rem;">GitHub</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="section hero" style="min-height: 60vh; padding-bottom: 0;">
+        <div class="hero-orb hero-orb-3" style="right: 10%; top: 20%; left: auto;"></div>
+        <div class="container hero-content fade-in-up">
+            <h1 class="hero-title">Experience & Skills</h1>
+            <p class="hero-subtitle">
+                A track record of shipping ML systems, from research prototypes to production pipelines in autonomous
+                driving and cloud infrastructure.
+            </p>
+            <div class="mt-md">
+                <a href="#" class="btn btn-secondary">Download PDF</a>
+            </div>
+        </div>
+    </main>
+
+    <section class="section">
+        <div class="container">
+            <div class="grid grid-2" style="grid-template-columns: 2fr 1fr; gap: var(--space-2xl);">
+
+                <!-- Main Content: Experience -->
+                <div class="experience-column">
+                    <h2 class="section-title mb-xl">Work History</h2>
+
+                    <div class="timeline">
+                        <!-- Valeo -->
+                        <div class="timeline-item fade-in-up">
+                            <div class="timeline-date">Sep 2025 – Present</div>
+                            <h3 class="timeline-title">Graduate AI Engineer</h3>
+                            <div class="timeline-company">Valeo Vision Systems • Galway, Ireland</div>
+                            <div class="timeline-content">
+                                <ul>
+                                    <li>Developing end-to-end autonomous driving algorithms, from data pipelines to
+                                        on-device deployment.</li>
+                                    <li>Optimized 3D pointcloud processing pipeline, reducing time per trace by 7x
+                                        utilizing JAX.</li>
+                                    <li>Architected a scalable fault-tolerant data processing pipeline using Airflow and
+                                        K8s, enabling dynamic task distribution.</li>
+                                    <li>Optimizing segmentation and perception models for real-time inference in
+                                        embedded automotive environments.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Microsoft Research 2024 -->
+                        <div class="timeline-item fade-in-up">
+                            <div class="timeline-date">Jun 2024 – Sep 2024</div>
+                            <h3 class="timeline-title">Software Engineering Intern</h3>
+                            <div class="timeline-company">Microsoft Research • Dublin, Ireland</div>
+                            <div class="timeline-content">
+                                <ul>
+                                    <li>Developed and implemented state and API mocking solutions for production and
+                                        testing environments, saving significant engineering hours.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Microsoft Research 2023 -->
+                        <div class="timeline-item fade-in-up">
+                            <div class="timeline-date">Mar 2023 – Sep 2023</div>
+                            <h3 class="timeline-title">Software Engineering Intern</h3>
+                            <div class="timeline-company">Microsoft Research • Dublin, Ireland</div>
+                            <div class="timeline-content">
+                                <ul>
+                                    <li>Developed authentication mocking for token generation in production
+                                        environments.</li>
+                                    <li>Created a builder-pattern framework to simplify app configuration for new
+                                        back-ends.</li>
+                                    <li>Led initiative to assess Copilot’s outputs using NLP, semantic accuracy, and
+                                        topic modelling.</li>
+                                    <li>Hackathon wins: Fine-tuned LLM for onboarding assistant; Concept platform for
+                                        M365 educational suite.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Agnicio -->
+                        <div class="timeline-item fade-in-up">
+                            <div class="timeline-date">Jun 2022 – Sep 2022</div>
+                            <h3 class="timeline-title">Data Science & Machine Learning</h3>
+                            <div class="timeline-company">Agnicio • Rotterdam, Netherlands</div>
+                            <div class="timeline-content">
+                                <ul>
+                                    <li>Transitioned proprietary forecasting models to a SaaS approach.</li>
+                                    <li>Benchmarked models against top Kaggle baselines.</li>
+                                    <li>Developed new LightGBM/XGBoost/ARIMA models.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Dwyers -->
+                        <div class="timeline-item fade-in-up">
+                            <div class="timeline-date">Nov 2020 – May 2022</div>
+                            <h3 class="timeline-title">Showroom Sales Specialist</h3>
+                            <div class="timeline-company">Dwyers Electrical • Cork, Ireland</div>
+                            <div class="timeline-content">
+                                <ul>
+                                    <li>Contributed to a team grossing €5M yearly; oversaw €350K+ in orders
+                                        individually.</li>
+                                    <li>Implemented a chatbot for online sales to maximize revenue.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h2 class="section-title mb-xl mt-xl">Education</h2>
+                    <div class="card card-neon mb-md fade-in-up">
+                        <div class="timeline-date">Aug 2024 – Sep 2025</div>
+                        <h3 class="timeline-title">M.Sc. Artificial Intelligence for Medicine & Medical Research</h3>
+                        <div class="timeline-company">University College Dublin</div>
+                        <p>GPA: 3.75/4.00</p>
+                    </div>
+                    <div class="card card-neon fade-in-up">
+                        <div class="timeline-date">Aug 2020 – Sep 2024</div>
+                        <h3 class="timeline-title">B.Sc. Data Science and Analytics</h3>
+                        <div class="timeline-company">University College Cork</div>
+                        <p>GPA: 3.68/4.00</p>
+                    </div>
+                </div>
+
+                <!-- Sidebar: Skills -->
+                <div class="skills-column">
+                    <div class="card fade-in-up" style="position: sticky; top: 100px;">
+                        <h3 class="mb-md">Technical Skills</h3>
+
+                        <h4 class="mb-sm" style="font-size: 1rem; color: var(--text-muted);">Languages</h4>
+                        <div class="tags mb-lg">
+                            <span class="tag">Python</span>
+                            <span class="tag">R</span>
+                            <span class="tag">SQL</span>
+                            <span class="tag">TypeScript</span>
+                            <span class="tag">C#</span>
+                            <span class="tag">Rust</span>
+                            <span class="tag">Java</span>
+                            <span class="tag">Haskell</span>
+                            <span class="tag">LaTeX</span>
+                        </div>
+
+                        <h4 class="mb-sm" style="font-size: 1rem; color: var(--text-muted);">Frameworks & Libraries</h4>
+                        <div class="tags mb-lg">
+                            <span class="tag tag-gradient">PyTorch</span>
+                            <span class="tag tag-gradient">JAX</span>
+                            <span class="tag">scikit-learn</span>
+                            <span class="tag">NumPy</span>
+                            <span class="tag">Pandas</span>
+                            <span class="tag">PySpark</span>
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">.NET</span>
+                        </div>
+
+                        <h4 class="mb-sm" style="font-size: 1rem; color: var(--text-muted);">Cloud & DevOps</h4>
+                        <div class="tags mb-lg">
+                            <span class="tag">Google Cloud (Vertex AI)</span>
+                            <span class="tag">AWS</span>
+                            <span class="tag">Azure</span>
+                            <span class="tag">Docker</span>
+                            <span class="tag">K8s</span>
+                            <span class="tag">DVC</span>
+                        </div>
+
+                        <h4 class="mb-sm" style="font-size: 1rem; color: var(--text-muted);">Databases</h4>
+                        <div class="tags mb-lg">
+                            <span class="tag">MySQL</span>
+                            <span class="tag">MongoDB</span>
+                        </div>
+
+                        <h4 class="mb-sm" style="font-size: 1rem; color: var(--text-muted);">Core Competencies</h4>
+                        <div class="tags">
+                            <span class="tag">Deep Learning</span>
+                            <span class="tag">Reinforcement Learning</span>
+                            <span class="tag">Statistical Modeling</span>
+                            <span class="tag">Forecasting</span>
+                            <span class="tag">Data Viz</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer section">
+        <div class="container">
+            <ul class="footer-links">
+                <li><a href="https://github.com/dylanbforde" target="_blank" class="footer-link">GitHub</a></li>
+                <li><a href="mailto:contact@dylanforde.com" class="footer-link">Email</a></li>
+                <li><a href="#" class="footer-link">LinkedIn</a></li>
+            </ul>
+            <p class="footer-copy">&copy; 2026 Dylan Forde. Built with paper & neon.</p>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
