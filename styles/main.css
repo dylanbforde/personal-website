@@ -169,8 +169,17 @@ a:hover {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-shadow: 0 0 60px rgba(0, 229, 255, 0.3), 0 0 120px rgba(255, 107, 53, 0.2);
-  filter: drop-shadow(0 0 20px rgba(0, 229, 255, 0.15));
+}
+
+/* Gradient Box - inverted style with gradient background */
+.gradient-box {
+  background: var(--gradient-primary);
+  -webkit-text-fill-color: white;
+  color: white;
+  padding: 0.1em 0.4em;
+  border-radius: 0.15em;
+  display: inline-block;
+  line-height: 1.2;
 }
 
 .gradient-text-secondary {
